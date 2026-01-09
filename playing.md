@@ -2,7 +2,7 @@
 title: Playing
 description: 
 published: true
-date: 2026-01-09T00:22:34.102Z
+date: 2026-01-09T01:19:28.156Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:34:53.535Z
@@ -48,5 +48,5 @@ dateCreated: 2026-01-07T15:34:53.535Z
 - For example, if you wanted your password to be `barney092507`, you would type `/register barney092507 barney092507`.
 - Then you should be able to login with that same password using `/login <password>`. This is the standard for most servers.
 
-> DO NOT use "barney092507" as your password. Pick something unique, yet secure! If your password is weak, you have a high chance of getting **your account hacked**, and losing all your progress!
+> DO NOT use `barney092507` as your password. Pick something unique, yet secure! If your password is weak, you have a high chance of getting **your account hacked**, and losing all your progress!
 {.is-warning}
