@@ -2,7 +2,7 @@
 title: Play Experience
 description: 
 published: true
-date: 2026-01-09T07:03:22.398Z
+date: 2026-01-09T07:05:34.589Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:38:23.412Z
@@ -59,7 +59,7 @@ The main cause of a lower FPS is having a lot to render. A high render distance 
 Having lots of tabs open can also have a huge effect on client performance. Extra tabs can fill up RAM, which if full, overflows to your hard drive, causing the CPU to wait significantly longer and slow to a crawl (very common on low-end school Chromebooks). Also, extra tabs cause an increased CPU usage in general, which can slow down your game.
 
 ## Server lag
-Server lag occurs when the TPS[^4] of the server drops below 20. This occures when the main tickin threads takes more than 50ms to process a tick.
+Server lag occurs when the TPS[^4] of the server drops below 20. This occures when the main ticking thread takes more than 50ms to process a tick.
 
 > Some tasks may not be effected by server lag as much because of multi-threading. Not all servers do this and not all tasks use seperate threads. An example of this is the chat on Paper servers. Even if the main ticking thread is slowed down, the chat keeps chugging along!
 {.is-info}
@@ -75,7 +75,6 @@ Entities tend cause a lot of lag on the main ticking thread due to collisions, p
 There are many plugins out there to remove, stack, and/or remove AI from entities. There are many plugins such as [WildStacker](https://www.spigotmc.org/resources/%E2%9A%A1%EF%B8%8F-wildstacker-%E2%9A%A1%EF%B8%8F-spawners-entities-drops-blocks-%E2%9A%A1%EF%B8%8F-1-21-10-support.87404/) and [LagFixer](https://modrinth.com/plugin/lagfixer) that seem to stay up-to-date, but there are many others on [Modrinth](https://modrinth.com/discover/plugins), [CurseForge](https://www.curseforge.com/minecraft/search?class=bukkit-plugins), [SpigotMC](https://www.spigotmc.org/resources/categories/spigot.4/), etc.
 
 #### Plugins
-
 Ironically, having many of those lag managment or other plugins can itself cause lag. Plugins that use the Scheduler for complicated tasks may have code that runs in different threads, however not all plugins do, and a server with few cores/threads may still struggle.
 
 ## Connection Lag
