@@ -2,14 +2,14 @@
 title: Play Experience
 description: 
 published: true
-date: 2026-01-09T00:24:05.571Z
+date: 2026-01-09T00:24:16.346Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:38:23.412Z
 ---
 
 # Play Experience
-#### In development - Please exuse any missing information
+#### In development - Please excuse any missing information
 
 # Resource Packs
 Despite popular belief, Resource Packs[^1] do NOT increase your framerate. What they can do, is stop your frames from dipping and/or fluctuating, but they cannot increase your framerate directly. This solely relies on your settings and your hardware's performance.
