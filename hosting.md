@@ -2,7 +2,7 @@
 title: How to Host a Server
 description: Step-by-step
 published: true
-date: 2026-01-09T01:20:19.255Z
+date: 2026-01-09T01:28:57.249Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:46:34.050Z
@@ -20,8 +20,8 @@ To properly host your own server you will need:
 You must have access to a VPS or a dedicated server that is accessible from the Internet with port forwarding.
 A few compatible VPS and dedicated server services are listed on **the [Hosts](/hosting/hosts) page**, but it is advised that you do your own research to find what works for you.
 
-> :warning: You could use [Github Codespaces](https://github.com/features/codespaces) or Repl.it, however, it is **highly discouraged for many reasons** such as having security concerns and that free resources are limited which can limit your ability to list your server on [Eagler Server List](https://servers.eaglercraft.com).
-{.is-info}
+> You could use [Github Codespaces](https://github.com/features/codespaces) or Repl.it, however, it is **highly discouraged for many reasons** such as having security concerns and that free resources are limited which can limit your ability to list your server on [Eagler Server List](https://servers.eaglercraft.com).
+{.is-warning}
 ### Knowledge with Linux and the Linux Terminal
 You will need to have some basic knowledge of how to interact with the Linux operating system, and in turn the Linux terminal. Click [here](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) for a Linux basics guide that should help you with all the knowledge you will need for this tutorial.
 ### Basic understanding of setting up a working BungeeCord network
