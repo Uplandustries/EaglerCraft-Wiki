@@ -2,7 +2,7 @@
 title: Play Experience
 description: 
 published: true
-date: 2026-01-09T00:24:16.346Z
+date: 2026-01-09T07:00:40.748Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:38:23.412Z
@@ -59,15 +59,15 @@ The main cause of a lower FPS is having a lot to render. A high render distance 
 Having lots of tabs open can also have a huge effect on client performance. Extra tabs can fill up RAM, which if full, overflows to your hard drive, causing the CPU to wait significantly longer and slow to a crawl (very common on low-end school Chromebooks). Also, extra tabs cause an increased CPU usage in general, which can slow down your game.
 
 ## Server lag
-Server lag occurs when the TPS[^4] of the server drops below 20. This occures when one of the ticking threads takes more than 50ms to process a tick.
+Server lag occurs when the TPS[^4] of the server drops below 20. This occures when the main tickin threads takes more than 50ms to process a tick.
 
-> Some tasks may not be effected by server lag as much because of multi-threading. Not all servers do this and not all tasks use seperate threads. An example of this is the chat on Paper servers. Even if the main ticking thread is slowed down, the chat keeps chugging!
+> Some tasks may not be effected by server lag as much because of multi-threading. Not all servers do this and not all tasks use seperate threads. An example of this is the chat on Paper servers. Even if the main ticking thread is slowed down, the chat keeps chugging along!
 {.is-info}
 
 #### Loading chunks
-When players move around, chunks have to be loaded from hard drive to RAM. This process is very CPU intensive. If a system's CPU has enough cores/threads, this may not cause issues (on most servers), however if a system doesn't, it may have the main world ticking thread slow down.
+When players move around, chunks have to be loaded from region files on your hard drive to RAM. This process is very CPU intensive. If a system's CPU has enough cores/threads, this may not cause issues (on most servers), however if a system doesn't, it may cause the world ticking thread to slow down.
 
-Once chunks are loaded into RAM, they all must be processed by the server's main ticking thread. The more players you have loading chunks, the slower this can become.
+Once chunks are loaded into RAM, they all must be processed constantly by the server's ticking thread. The more players you have with loaded chunks, the slower this can become.
 
 #### Entities
 Entities tend cause a lot of lag on the main ticking thread due to collisions, pathfinding, and other AI tasks. Of course, the more chunks are loaded (see above), the more entity ticking can be a problem.
