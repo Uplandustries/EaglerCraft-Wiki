@@ -2,7 +2,7 @@
 title: Clients
 description: 
 published: true
-date: 2026-01-09T00:15:24.093Z
+date: 2026-01-09T02:44:31.863Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:34:15.366Z
@@ -23,12 +23,12 @@ This page provides information on all publicly available modifications for Eagle
 
 **Main Features**
 ```
-- Below y0 - loads blocks below y = 0 (requires server plugin)
-- ViaVersion Items - loads item textures for 1.13+ items
-- ViaVersion Entities - loads models and textures for 1.13+ mobs
-- ViaBlocks (COMING SOON) - loads 1.13+ blocks in the world
-- Select positions of all GUI modules
-- Very high custimizability - change the theme of the home screen, mod menu, and many widgets
+Below y0 - loads blocks below y = 0 (requires server plugin)
+ViaVersion Items - loads item textures for 1.13+ items
+ViaVersion Entities - loads models and textures for 1.13+ mobs
+ViaBlocks (COMING SOON) - loads 1.13+ blocks in the world
+Select positions of all GUI modules
+Very high custimizability - change the theme of the home screen, mod menu, and many widgets
 ```
 
 **All Mods (as of 1.1 - in public beta)**
@@ -37,61 +37,61 @@ This page provides information on all publicly available modifications for Eagle
 - ViaVersion Entities - loads models and textures for 1.13+ mobs
  
 HUD
-  - ClickGUI
-  - Colorful Containers
-  - Fancy Health Icons
-  - Inventory HUD
-  - Vanilla Widgets
-  - Hotbar Switcher
-  - Minimap
-  - Potions
-  - Shulker Box Tooltip
+	- ClickGUI
+	- Colorful Containers
+	- Fancy Health Icons
+	- Inventory HUD
+	- Vanilla Widgets
+	- Hotbar Switcher
+	- Minimap
+	- Potions
+	- Shulker Box Tooltip
 
 PVP
-  - PVP Stat Tracker
-  - NoDynamicFOV
-  - Range Crosshair
+	- PVP Stat Tracker
+	- NoDynamicFOV
+	- Range Crosshair
 	- Customizable Crosshair
-  - No Hurt Cam
-  - Sprint Toggle
-  - Shift Toggle
+	- No Hurt Cam
+	- Sprint Toggle
+	- Shift Toggle
 
 Utility
-  - AutoLogin - remembers your passwords and runs /login for you
-  - Quick Elytra
-  - NoGlint
-  - NoRain
-  - TNT Coldown
-  - GlowingOres
-  - Compass - displays cardinal directions
-  - CPS Counter - displays clicks per second
-  - Healthbar Viewer
-  - Keystrokes GUI
-  - Durability GUI
-  - Zoom
-  - Streamer Mode
-  - AppleSkin - ported mod for displaying saturation and health benfits of food
-  - WorldEdit CUI - shows your WorldEdit selection (if the server has it)
-  - Fire Overlay Hight
-  - WAILA (WhatAmILookingAt)
-  - Reach Display
-  - Speed Display
-  - Debug
-  - Token Counter
-  - Speedrun Timer
-  - Clear Chat
-  - No Background Tint
-  - Waypoints
+	- AutoLogin - remembers your passwords and runs /login for you
+	- Quick Elytra
+	- NoGlint
+	- NoRain
+	- TNT Coldown
+	- GlowingOres
+	- Compass - displays cardinal directions
+	- CPS Counter - displays clicks per second
+	- Healthbar Viewer
+	- Keystrokes GUI
+	- Durability GUI
+	- Zoom
+	- Streamer Mode
+	- AppleSkin - ported mod for displaying saturation and health benfits of food
+	- WorldEdit CUI - shows your WorldEdit selection (if the server has it)
+	- Fire Overlay Hight
+	- WAILA (WhatAmILookingAt)
+	- Reach Display
+	- Speed Display
+	- Debug
+	- Token Counter
+	- Speedrun Timer
+	- Clear Chat
+	- No Background Tint
+	- Waypoints
 	- Fancy Block Hover
 	- AutoGG
 	- Fullbright
 
 FPS
-  - No Particles
-  - FPS Counter
-  - LDM Mode - low-data mode - prevents memory leaks on low-end devices
-  - FastMath
-  - Faster Chunk Unloading
+	- No Particles
+	- FPS Counter
+	- LDM Mode - low-data mode - prevents memory leaks on low-end devices
+	- FastMath
+	- Faster Chunk Unloading
 ```
 
 Latest release: 1.0.0
@@ -256,87 +256,69 @@ Client Settings:
       EXPERIMENTAL: Edits packet handling
 
 Mod List:
-  - Armor Status
-      Shows stats about your armor
-  - Block Overlay
-      Edit the block overlay
+  - Armor Status - Shows stats about your armor
+  - Block Overlay - Edit the block overlay
       Settings:
         - Color
         - Width
-  - Brightness (aka. Fullbright)
-      Light up the world
+  - Brightness (aka. Fullbright) - Light up the world
       Settings:
         - Boost
-  - ClientSniffer (aka. CheaterSniffer)
-      Detect players clients
+  - ClientSniffer (aka. CheaterSniffer) - Detect players clients
       Settings:
         - Clients: Comma seperated list
-  - CPS
-      Show your clicks per second
+  - CPS - Show your clicks per second
       Settings:
         - Color
         - Background Color
-  - FPS
-      Show your FPS in game
+  - FPS - Show your FPS in game
       Settings:
         - Color
         - Background Color
         - Animated
-  - Free Look
-      Look around your player freely
+  - Free Look - Look around your player freely
       Settings:
         - First Person
         - Return on release
-  - Hitboxes
-      Customize entity hitboxes
+  - Hitboxes - Customize entity hitboxes
       Settings:
         - Outline
         - Headbox
         - Aim
-  - Hurt Cam
-      Modify the camera shake
+  - Hurt Cam - Modify the camera shake
       Settings:
         - Multiplier
   - Hurt Color
       Edit the damage tint
       Settings:
         - Color
-  - Keystrokes
-      Shows your inputs
+  - Keystrokes - Shows your inputs
       Settings:
         - Mode (WASD, WASD_MOUSE, WASD_SPRINT, WASD_SPRINT_MOUSE, WASD_JUMP, WASD_JUMP_MOUSE, WASD_JUMP_MOUSE_CPS)
         - Animated
         - Aim
-  - No Dynamic FOV
-      Prevents FOV changes
-  - Ping
-      Show your Ping in game
+  - No Dynamic FOV - Prevents FOV changes
+  - Ping - Show your Ping in game
       Settings:
         - Color
         - Background Color
-  - Potion (aka. Potion Timer)
-      View your active potions
-  - Rendering (aka. FPS Boost)
-      Control parts of the games rendering
+  - Potion (aka. Potion Timer) - View your active potions
+  - Rendering (aka. FPS Boost) - Control parts of the games rendering
       Settings:
         - Rain: Should rain be rendered?
         - Chat background: Should the chat background be rendered?
         - Own nametag: Should your nametag be rendered?
-  - Speed
-      Display your speed
+  - Speed - Display your speed
       Settings:
         - Color
         - Background Color
-  - Time Changer
-      Change the time
+  - Time Changer - Change the time
       Settings:
         - Time value
-  - TNT Timer
-      Shows a countdown above ignited TNT
+  - TNT Timer - Shows a countdown above ignited TNT
       Settings:
         - Fuse modifier
-  - Toggle Sprint
-      Toggle sprint?!
+  - Toggle Sprint - Toggle sprint?!
 ```
 
 Discord: https://discord.gg/8jHhmvaKtc
