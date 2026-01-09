@@ -2,7 +2,7 @@
 title: Eaglercraft Intro
 description: 
 published: true
-date: 2026-01-09T02:33:26.110Z
+date: 2026-01-09T17:09:06.575Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:25:45.921Z
@@ -32,7 +32,7 @@ There is a [YouTube channel](https://youtube.com/@eaglercraft-official) for Eagl
 
 Eaglercraft is currently on version ___u53___.
 
-> Eagler Server List has been shut down until farther notice. The Arch MC team has taken over the project, however we have to ETA on when it will be back online.
+> Eagler Server List has been shut down until farther notice. The Arch MC team has taken over the project, however we have no ETA on when it will be back online.
 {.is-warning}
 
 
