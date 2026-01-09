@@ -2,7 +2,7 @@
 title: Eaglercraft Intro
 description: 
 published: true
-date: 2026-01-08T23:17:10.358Z
+date: 2026-01-09T02:30:50.623Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:25:45.921Z
@@ -28,13 +28,18 @@ Eaglercraft is primarily Minecraft 1.8.8, however, a 1.12 version endorsed by LA
 {.is-warning}
 
 
-There is a YouTube [channel](https://youtube.com/@eaglercraft-official) for Eaglercraft. Please note, whilst this channel is approved by ayunami2000, it is not owned by the Eaglercraft developers and rather by members of the community.
+There is a [YouTube channel](https://youtube.com/@eaglercraft-official) for Eaglercraft. Please note, whilst this channel is approved by ayunami2000, it is not owned by the Eaglercraft developers and rather by members of the community.
 
-Eaglercraft is currently on version u51.
+Eaglercraft is currently on version ___u53___.
+
+> Eagler Server List has been shut down until farther notice. The Arch MC team has taken over the project, however we have to ETA on when it will be back online.
+{.is-warning}
 
 
+<!--
 **Looking for documentation pertaining to Eagler Server List?** [Look no further](/EaglerServerList/Introduction).
 {.is-info}
+-->
 
 > Due to a limitation with the hosting of this service, client links, client source code, and tutorials on how to develop clients for Eaglercraft are unavailable to mitigate the risk of DMCA.
 {.is-info}
