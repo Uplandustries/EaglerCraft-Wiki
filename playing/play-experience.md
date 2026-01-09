@@ -2,7 +2,7 @@
 title: Play Experience
 description: 
 published: true
-date: 2026-01-09T07:00:40.748Z
+date: 2026-01-09T07:03:22.398Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:38:23.412Z
@@ -83,18 +83,19 @@ Connection lag occurs when you client doesn't have a good connection the the ser
 
 If everything stops moving, you can't open inventories (such as chests), and the chat stops moving, you may be experiencing connection lag.
 
-Switching tabs can sometimes cause your connection to drop out; this takes a moment to update, causing everything to freeze then  suddenly disconnecting you.
+Switching tabs can sometimes cause your connection to drop out; this takes a moment to update, causing everything to freeze and suddenly disconnecting you.
 
 > It is also the cause of the infamous "End of stream." message that *everyone* has experienced at some point.
 {.is-info}
 
-Anither common cause of connection lag is a bad Wi-Fi signal, but your client loading lots of chunks at once is a lot of data to transfer and can also make a difference.
+Another common cause of connection lag is a bad Wi-Fi signal, and your client loading lots of chunks at once on a bad signal can compound he issue.
 
 > Try lowering your render distance.
 
-High server load or client lag can also cause your connection to experience issues, causing this type of lag to be hard to diagnose in many situations.
+High server load or client lag can also contribute to connection issues, causing this type of lag to be hard to diagnose in many situations.
 
 ---
+
 [^1]: Sometimes called Texture Packs - different from Data Packs
 [^2]: Tested on a Dell Chromebook 3110, should apply to most other models.
 [^3]: 6 chunks should work perfectly for most devices but may lag on certain devices, use 4 (or less but the experience isn't great) if needed.
