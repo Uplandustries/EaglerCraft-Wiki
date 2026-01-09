@@ -2,7 +2,7 @@
 title: Eaglercraft Intro
 description: 
 published: true
-date: 2026-01-09T02:30:50.623Z
+date: 2026-01-09T02:33:26.110Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:25:45.921Z
@@ -14,7 +14,7 @@ This service is operated and maintained by members of the Eaglercraft community 
 
 Eaglercraft is an AOT compiled port of Minecraft 1.8.8, designed to run in a browser environment, using [TeaVM](https://github.com/konsoletyper/TeaVM) and [LAX1DUDE](https://github.com/lax1dude)'s OpenGL 1.3 emulator to simulate a Java virtual machine fully compatible with Minecraft Java Edition.
 
-Eaglercraft is primarily Minecraft 1.8.8, however, a 1.12 version endorsed by LAX1DUDE is available. The 1.12 version still lacks certain features, but is being updated regularly.
+Eaglercraft is primarily Minecraft 1.8.8, however, a 1.12 version endorsed by LAX1DUDE is available by PeytonPlayz. The 1.12 version still lacks certain features, but is being updated.
 
 ---
 
