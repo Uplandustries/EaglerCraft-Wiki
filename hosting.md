@@ -2,7 +2,7 @@
 title: How to Host a Server
 description: Step-by-step
 published: true
-date: 2026-01-09T01:28:57.249Z
+date: 2026-01-10T05:26:13.623Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:46:34.050Z
@@ -110,11 +110,6 @@ With that, your proxy is in offline-mode.
 
 **Navigate to `plugins/EaglerXServer` inside of your proxy installation folder.**
 
-> Documentation regarding EaglerXServer may not yet be accurate. Although the process below is similar to what you need to do, it may not be exact and has different settings. If you wish to have accurate instructions to setup Eaglercraft support on your server, download 'EaglerXBungee' (or 'EaglerXVelocity') from [the old Github repo](https://github.com/lax1dude/eagl3rxbungee) instead.
-After downloading, upload it according to the instructions above, and continue below.
-___**This is *not* recommended** EaglerXBungee and EaglerXVelocity are no longer supported or updated and EaglerXVelocity doesn't seem to even work on the latest version of Velocity (build 487 works).___
-{.is-warning}
-
 First, we will change the server's name to show up properly when you are using services like EaglerServerList.
 Open `settings.yml` and set the property `server_name` to a name of your liking.
 
@@ -153,17 +148,19 @@ The server should now be starting. We don't need it right now, so stop it again 
 ### Configuring the Server
 In the same folder that your server jar file is, there should now be a bunch of new files. In order to make your server work, you will need to change some values in `server.properties` to make your server work with BungeeCord and EaglerCraft. You should look for a line that says:
 
-```
+```properties
 online-mode=true
 ```
 
 You will need to change this regardless of if your bungeecord is set to `true` or `false` due to the way bungeecord works.
 
-```
+```properties
 online-mode=false
 ```
 
-> It is important to close the port that your server is running on (defaultly 25565) on your firewall and/or router because having it open can lead to a backdoor.
+> It is important to close the port that your server is running on (default: 25565) on your firewall and/or router because having it open can lead to a backdoor, bypassing the proxy.
+> 
+> *To secure it farther, [BungeeGuard](https://bungeeguard.com/) can be installed to ensure the backend server only excepts connections from the proxy.*
 {.is-warning}
 
 ## Step 5: Joining the server (finally!)

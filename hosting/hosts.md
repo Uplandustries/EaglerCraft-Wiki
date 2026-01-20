@@ -2,7 +2,7 @@
 title: Hosts
 description: Hosting providers that support Eaglercraft servers
 published: true
-date: 2026-01-09T01:28:31.673Z
+date: 2026-01-09T01:28:35.336Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:44:59.660Z

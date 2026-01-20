@@ -2,7 +2,7 @@
 title: Editors
 description: Editor guidlines
 published: true
-date: 2026-01-09T00:14:11.871Z
+date: 2026-01-09T00:14:16.056Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:28:59.986Z
