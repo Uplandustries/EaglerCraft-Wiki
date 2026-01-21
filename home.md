@@ -2,13 +2,17 @@
 title: Eaglercraft Intro
 description: 
 published: true
-date: 2026-01-09T17:09:09.597Z
+date: 2026-01-21T23:46:30.477Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:25:45.921Z
 ---
 
 # Welcome to Eaglercraft Documentation!
+
+> ___This site is a mirror___ of the original docs hosted by Colddev at docs.eags.pw. Cold has since left the community and I, UplandJacob, am now hosting this site.
+{.is-info}
+
 
 This service is operated and maintained by members of the Eaglercraft community and aims to provide a central place for documentation of all sorts, including the process of creating and managing an Eaglercraft server, the history of Eaglercraft amongst other things.
 
@@ -24,8 +28,8 @@ Eaglercraft is primarily Minecraft 1.8.8, however, a 1.12 version endorsed by LA
 
 ---
 
-> A new, re-written plugin for Eaglercraft servers has been recently released. Some parts of this documentation may not be up-to-date with the latest plugin.
-{.is-warning}
+> A new, re-written plugin for Eaglercraft servers has been recently released. Most of this documentation has been updated but some parts may not be up-to-date with the latest plugin.
+{.is-info}
 
 
 There is a [YouTube channel](https://youtube.com/@eaglercraft-official) for Eaglercraft. Please note, whilst this channel is approved by ayunami2000, it is not owned by the Eaglercraft developers and rather by members of the community.
