@@ -2,7 +2,7 @@
 title: Eaglercraft Intro
 description: 
 published: true
-date: 2026-01-21T23:46:30.477Z
+date: 2026-01-21T23:55:59.849Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:25:45.921Z
@@ -10,7 +10,7 @@ dateCreated: 2026-01-07T15:25:45.921Z
 
 # Welcome to Eaglercraft Documentation!
 
-> ___This site is a mirror___ of the original docs hosted by Colddev at docs.eags.pw. Cold has since left the community and I, UplandJacob, am now hosting this site.
+> ___This site is a mirror___ of the original docs hosted by *Colddev* at docs.eags.pw (shut down). Cold has since left the community and I, UplandJacob, am now hosting this site.
 {.is-info}
 
 
