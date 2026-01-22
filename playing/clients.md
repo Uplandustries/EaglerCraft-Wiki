@@ -2,7 +2,7 @@
 title: Clients
 description: 
 published: true
-date: 2026-01-09T02:44:35.757Z
+date: 2026-01-22T00:07:06.823Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:34:15.366Z
@@ -18,7 +18,7 @@ This page provides information on all publicly available modifications for Eagle
 ## **TuffClient**
 
 **Main Developers**
-- shaun
+- SpeedSlicer (Shaun)
 - justatypicalpotato
 
 **Main Features**
@@ -26,7 +26,8 @@ This page provides information on all publicly available modifications for Eagle
 Below y0 - loads blocks below y = 0 (requires server plugin)
 ViaVersion Items - loads item textures for 1.13+ items
 ViaVersion Entities - loads models and textures for 1.13+ mobs
-ViaBlocks (COMING SOON) - loads 1.13+ blocks in the world
+ViaBlocks (COMING SOON - in public beta) - loads 1.13+ blocks in the world
+ViaSounds (COMING SOON - in private beta as of 1/21/26) - loads modern sounds
 Select positions of all GUI modules
 Very high custimizability - change the theme of the home screen, mod menu, and many widgets
 ```
@@ -101,12 +102,12 @@ Currently supported platforms: JS, WASM
 
 Initial Release Date: Unknown
 
-[Discord](https://discord.gg/K9GayFg7gA)
+**[Discord](https://discord.gg/K9GayFg7gA)**
 
 ## **Resent Client**
-
+<!--
 ![](/resent_banner_with_text.png)
-
+-->
 **Main Developers:**
 
 [kone](mailto:kone@resentclient.com)  
@@ -161,12 +162,12 @@ Currently supported platforms: JS (WASM coming soon)
 Initial Release Date: Lost Information
 
 [Contact Info: support@resentclient.com](mailto:support@resentclient.com)  
-[Discord: discord.resentclient.com](https://discord.resentclient.com)
+**[Discord: discord.resentclient.com](https://discord.resentclient.com)**
 
 ## Astra Client
-
+<!--
 ![](/group_33550.png)
-
+-->
 **Main Developers:**
 
 [BarneyTheGod](https://github.com/BarneyCompiler)  
@@ -229,7 +230,7 @@ Currently supported platforms: JS, WASM
 Initial Release Date: March 24, 2024
 
 [Contact Info: support@astraclient.com](mailto:support@astraclient.com)  
-[Discord: discord.gg/astraclient](https://discord.gg/astraclient)
+**[Discord: discord.gg/astraclient](https://discord.gg/astraclient)**
 
 ## PixelClient
 
@@ -321,7 +322,7 @@ Mod List:
   - Toggle Sprint - Toggle sprint?!
 ```
 
-Discord: https://discord.gg/8jHhmvaKtc
+**Discord: https://discord.gg/8jHhmvaKtc**
 
 ## Eaglerforge
 
@@ -335,10 +336,9 @@ ZXMushroom63
 
 > No longer developed. The main developler has left the community.
 {.is-warning}
-
-
+<!--
 ![](/eaglymcbanner.png)
-
+-->
 **Main Developers:**
 [Chocofush](https://discord.com/users/1250767822309822509)
 
@@ -400,7 +400,8 @@ ZXMushroom63
   EaglyMC Launcher
   /summondummy command
 ```
-Discord: https://discord.gg/GveH5355B9
+**Discord: https://discord.gg/GveH5355B9**
+
 ## Starlike Client
 
 Pending Updates.
