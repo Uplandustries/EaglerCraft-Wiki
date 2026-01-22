@@ -2,7 +2,7 @@
 title: Clients
 description: 
 published: true
-date: 2026-01-22T00:07:06.823Z
+date: 2026-01-22T00:09:21.394Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:34:15.366Z
@@ -13,7 +13,14 @@ dateCreated: 2026-01-07T15:34:15.366Z
 This page provides information on all publicly available modifications for Eaglercraft, including those currently in development.
 
 > **The following list is not in any particular order**  
+>
 > If you're a developer and would like to add information about your client, please follow the format provided below.
+
+> Due to DMCA concerns, **there are no direct client links in this documentation.**
+>
+> Join the Discord for the client(s) of your choosing to get the links.
+{.is-info}
+
 
 ## **TuffClient**
 
