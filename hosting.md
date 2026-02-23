@@ -2,7 +2,7 @@
 title: How to Host a Server
 description: Step-by-step
 published: true
-date: 2026-01-10T05:26:13.623Z
+date: 2026-02-23T11:35:22.578Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:46:34.050Z
@@ -133,32 +133,32 @@ After confirming that the previously created BungeeCord instance works as expect
 
 The server software of choice is [PandaSpigot](https://github.com/hpfxd/PandaSpigot). It is an updated 1.8.8 server software that has a lot of performance and bug fixes.
 
-> You may choose to install other server software instead, such as [Paper](https://papermc.io). You can even use newer versions with the [Via*](https://viaversion.com/) suite of plugins. This does have drawbacks, however, because Via* does not actually port features from newer versions it works by finding workarounds (blocks released after 1.8 will be shown as placeholders from 1.8 for example).
+> You may choose to install other server software instead, such as [Paper](https://papermc.io). You can even use newer versions with the [Via*](https://viaversion.com/) suite of plugins. (___**Check out the guide for this on the [Advanced Server Configuration](hosting/advanced) page)**___ This does have drawbacks, however, because Via* does not actually port features from newer versions it works by finding workarounds (blocks released after 1.8 will be shown as placeholders from 1.8 for example).
 >
 > Some clients are designed to work with newer servers such as TuffClient, but ___if you choose this route, you should understand the shortcomings.___
 {.is-info}
 
 
-### Installing PandaSpigot
+### Installing
 Create a new empty folder for your backend server. In that folder, place the latest jar file of the server you chose, renamed to `server.jar` (for compatibility and consistancy).
 You need to agree to the Minecraft EULA. To do so type `echo eula=true > eula.txt` into your Terminal.
-Your server is now ready to start. The start command is `java -jar server.jar` assuming server.jar is the actual name of the jar file.
-The server should now be starting. We don't need it right now, so stop it again using `stop`.
+
+Your server is now ready to start. The start command is `java -jar server.jar` (assuming `server.jar` is the actual name of the jar file).
+
+The server should now be starting. Once it starts, what we need will now be generated, so stop it again using `stop` so we can configure it.
 
 ### Configuring the Server
-In the same folder that your server jar file is, there should now be a bunch of new files. In order to make your server work, you will need to change some values in `server.properties` to make your server work with BungeeCord and EaglerCraft. You should look for a line that says:
-
-```properties
-online-mode=true
-```
-
-You will need to change this regardless of if your bungeecord is set to `true` or `false` due to the way bungeecord works.
+In the same folder that your server jar file is, there should now be a bunch of new files. In order to make your server work, you will need to change some values in `server.properties` to make your server work with the proxy and EaglerCraft. Find the line that says `online-mode=true` and change it to this:
 
 ```properties
 online-mode=false
 ```
 
-> It is important to close the port that your server is running on (default: 25565) on your firewall and/or router because having it open can lead to a backdoor, bypassing the proxy.
+You will need to change this regardless of if your proxy config is set to `true` or `false` due to the way user authentication works.
+
+Feel free to also change values such as `view-distance` or `simulation-distance` here.
+
+> It is important to close the port that your backend server is running on (default: 25565) on your firewall and/or router because having it open can lead to a backdoor, bypassing the proxy.
 > 
 > *To secure it farther, [BungeeGuard](https://bungeeguard.com/) can be installed to ensure the backend server only excepts connections from the proxy.*
 {.is-warning}
