@@ -2,7 +2,7 @@
 title: Advanced Server Configuration
 description: 
 published: true
-date: 2026-02-23T11:37:44.132Z
+date: 2026-02-23T11:39:25.323Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:47:16.027Z
@@ -20,7 +20,7 @@ dateCreated: 2026-01-07T15:47:16.027Z
 
 Normally, the Minecraft servers must be the same version as the clients you plan on connecting, but this guide will show how to set up a newer server (even the very latest) to be compatible with almost any Java client version, including Eaglercraft 1.12.2, 1.8.8, and even 1.5.2 (with an additional plugin). This does have drawbacks, however, because Via* **does not actually port features** from newer versions; it works by **finding workarounds** (blocks released after 1.8 will be shown as placeholders from 1.8 for example). ___**If you choose this route, you should understand the shortcomings.**___
 
-1. If you havn't already, follow the main [How to Host a Server](hosting) guide up until setting up a backend server.
+1. If you havn't already, follow the main [How to Host a Server](../) guide up until setting up a backend server.
 
 2. Download your prefered version
  - [Paper](https://papermc.io) is a highly recommended choice for almost any server, but there are other options.
