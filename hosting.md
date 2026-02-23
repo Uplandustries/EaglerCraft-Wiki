@@ -2,7 +2,7 @@
 title: How to Host a Server
 description: Step-by-step
 published: true
-date: 2026-02-23T11:35:22.578Z
+date: 2026-02-23T11:38:37.369Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:46:34.050Z
@@ -133,7 +133,7 @@ After confirming that the previously created BungeeCord instance works as expect
 
 The server software of choice is [PandaSpigot](https://github.com/hpfxd/PandaSpigot). It is an updated 1.8.8 server software that has a lot of performance and bug fixes.
 
-> You may choose to install other server software instead, such as [Paper](https://papermc.io). You can even use newer versions with the [Via*](https://viaversion.com/) suite of plugins. (___**Check out the guide for this on the [Advanced Server Configuration](hosting/advanced) page)**___ This does have drawbacks, however, because Via* does not actually port features from newer versions it works by finding workarounds (blocks released after 1.8 will be shown as placeholders from 1.8 for example).
+> You may choose to install other server software instead, such as [Paper](https://papermc.io). You can even use newer versions with the [Via*](https://viaversion.com/) suite of plugins. (___**Check out the guide for this on the [Advanced Server Configuration](advanced) page)**___ This does have drawbacks, however, because Via* does not actually port features from newer versions it works by finding workarounds (blocks released after 1.8 will be shown as placeholders from 1.8 for example).
 >
 > Some clients are designed to work with newer servers such as TuffClient, but ___if you choose this route, you should understand the shortcomings.___
 {.is-info}
