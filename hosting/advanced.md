@@ -2,7 +2,7 @@
 title: Advanced Server Configuration
 description: 
 published: true
-date: 2026-02-23T11:40:36.211Z
+date: 2026-02-23T11:43:34.539Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:47:16.027Z
@@ -24,16 +24,18 @@ Normally, the Minecraft servers must be the same version as the clients you plan
 
 2. Download your prefered version
  - [Paper](https://papermc.io) is a highly recommended choice for almost any server, but there are other options.
- - Follow the 'Installing' and 'Configuring' parts of the [basic setup guide](/hosting#installing). (EULA and offline mode configs are the same)
+ - Follow the 'Installing' and 'Configuring' parts of the [basic setup guide](/hosting#installing-the-server). (EULA and offline mode configs are the same)
 
 3. Download ViaVersion, ViaBackwards, and ViaRewind from the [ViaVersion website](https://viaversion.com) (plus ViaRewindLegacySupport if you wish to have *even* better compatability with 1.8). Put these in the `plugins` folder.
 
 > The latest version of ViaVersion is not directly compatible with  the current version of EaglerXServer (due to removal of reflection). As long as you don't put Via* plugins directly on the same server, you will be fine. **Via plugins go on the backend, while EaglerXServer is on the proxy.** This is another reason to setup EaglerXServer on a proxy instead of the backend server, even though it *may* work on just backend with some adjustments.
 {.is-warning}
 
-4. If you wish to support Eaglercraft 1.5.2, install EaglerXRewind from the [EaglerXServer releases page](https://github.com/lax1dude/EaglerXServer/releases) to the **proxy**.
+4. You may also install other plugins, such as AxSmithing (smithing table compatibility), or TuffX (for TuffClient), to the backend server for better compatibility.
 
-5. Start up both the client and proxy. You should be ready to join!
+5. If you wish to support Eaglercraft 1.5.2, install EaglerXRewind from the [EaglerXServer releases page](https://github.com/lax1dude/EaglerXServer/releases) to the **proxy**.
+
+6. Start up both the client and proxy. You should be ready to join!
 
 ## How to use a MySQL (or similar) skins database
 Normally, EaglerXServer uses a SQLite database for caching skins. If you want to have a cache in a centralized database for access from other proxies, for example, you may want to set this up.
