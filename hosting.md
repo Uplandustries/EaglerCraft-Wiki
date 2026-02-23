@@ -2,7 +2,7 @@
 title: How to Host a Server
 description: Step-by-step
 published: true
-date: 2026-02-23T11:38:37.369Z
+date: 2026-02-23T11:43:23.201Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:46:34.050Z
@@ -139,7 +139,7 @@ The server software of choice is [PandaSpigot](https://github.com/hpfxd/PandaSpi
 {.is-info}
 
 
-### Installing
+### Installing the server
 Create a new empty folder for your backend server. In that folder, place the latest jar file of the server you chose, renamed to `server.jar` (for compatibility and consistancy).
 You need to agree to the Minecraft EULA. To do so type `echo eula=true > eula.txt` into your Terminal.
 
