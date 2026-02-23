@@ -2,7 +2,7 @@
 title: Advanced Server Configuration
 description: 
 published: true
-date: 2026-02-23T11:39:50.181Z
+date: 2026-02-23T11:40:36.211Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:47:16.027Z
@@ -24,7 +24,7 @@ Normally, the Minecraft servers must be the same version as the clients you plan
 
 2. Download your prefered version
  - [Paper](https://papermc.io) is a highly recommended choice for almost any server, but there are other options.
- - Follow the 'Installing' and 'Configuring' parts of the [basic setup guide](https://eag-docs.uplandustries.com/en/hosting#installing). (EULA and offline mode configs are the same)
+ - Follow the 'Installing' and 'Configuring' parts of the [basic setup guide](/hosting#installing). (EULA and offline mode configs are the same)
 
 3. Download ViaVersion, ViaBackwards, and ViaRewind from the [ViaVersion website](https://viaversion.com) (plus ViaRewindLegacySupport if you wish to have *even* better compatability with 1.8). Put these in the `plugins` folder.
 
