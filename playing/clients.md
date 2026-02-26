@@ -2,7 +2,7 @@
 title: Clients
 description: 
 published: true
-date: 2026-01-22T00:09:21.394Z
+date: 2026-02-26T15:38:13.723Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:34:15.366Z
@@ -34,9 +34,8 @@ Below y0 - loads blocks below y = 0 (requires server plugin)
 ViaVersion Items - loads item textures for 1.13+ items
 ViaVersion Entities - loads models and textures for 1.13+ mobs
 ViaBlocks (COMING SOON - in public beta) - loads 1.13+ blocks in the world
-ViaSounds (COMING SOON - in private beta as of 1/21/26) - loads modern sounds
 Select positions of all GUI modules
-Very high custimizability - change the theme of the home screen, mod menu, and many widgets
+Very high customizability - change the theme of the home screen, mod menu, and many widgets
 ```
 
 **All Mods (as of 1.1 - in public beta)**
