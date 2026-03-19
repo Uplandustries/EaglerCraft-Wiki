@@ -2,7 +2,7 @@
 title: Hosts
 description: Hosting providers that support Eaglercraft servers
 published: true
-date: 2026-03-19T19:55:12.961Z
+date: 2026-03-19T19:55:24.317Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:44:59.660Z
@@ -15,7 +15,7 @@ In order to have a eagler server you need a VPS service, Dedicated Server or a S
 
 A few recommended VPS (and dedicated host) services are listed below (but keep in mind these are not the only options):
 
-> Both a VPS (Virtual Private Host) and a dedicated host (seperste physical machine) allow you to run almost any servers/software within your allocated specs, unlike many common Minecraft server hosts which are usually one-click setup, restricting you to specific software.
+> Both a VPS (Virtual Private Host) and a dedicated host (separate physical machine) allow you to run almost any servers/software within your allocated specs, unlike many common Minecraft server hosts which are usually one-click setup, restricting you to specific software.
 {.is-info}
 
 
