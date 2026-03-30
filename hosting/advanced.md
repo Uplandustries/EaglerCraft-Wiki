@@ -2,7 +2,7 @@
 title: Advanced Server Configuration
 description: 
 published: true
-date: 2026-02-23T11:43:34.539Z
+date: 2026-03-30T23:32:08.966Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:47:16.027Z
@@ -13,7 +13,15 @@ dateCreated: 2026-01-07T15:47:16.027Z
 > If you have come here without first setting up a server, you are in the wrong place.
 {.is-warning}
 
-> We plan to eventually add an SSL guide here. Please be patient.
+## How to support SSL (WSS) using NGrok (free)
+
+1. [Sign up on NGrok](https://dashboard.ngrok.com/signup)
+2. [Set up an endpoint](https://dashboard.ngrok.com/get-started/setup/linux). Only do the Installation section, because we need to change some things in the Deploy command.
+3. Go to [Domains](https://dashboard.ngrok.com/domains), click on the only entry (Dev Domain), and copy the domain (click the icon)
+3. run `ngrok http --url=the-stupidly-long-dev-domain-you-copied.ngrok-free.dev 25565` (replacing the domain of course)
+4. put `wss://the-stupidly-long-dev-domain-you-copied.ngrok-free.dev` into Eaglercraft (yes wss; no 25565)
+
+> We plan to eventually add other methods for SSL here.
 {.is-info}
 
 ## How to setup a newer server version (using ViaVersion)
