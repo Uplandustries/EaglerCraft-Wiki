@@ -2,7 +2,7 @@
 title: Clients
 description: 
 published: true
-date: 2026-02-26T15:38:37.266Z
+date: 2026-04-03T20:15:00.045Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:34:15.366Z
@@ -27,13 +27,15 @@ This page provides information on all publicly available modifications for Eagle
 **Main Developers**
 - justatypicalpotato
 - SyntaxSavy
+- Arlen
+- UplandJacob
 
 **Main Features**
 ```
 Below y0 - loads blocks below y = 0 (requires server plugin)
 ViaVersion Items - loads item textures for 1.13+ items
 ViaVersion Entities - loads models and textures for 1.13+ mobs
-ViaBlocks (COMING SOON - in public beta) - loads 1.13+ blocks in the world
+ViaBlocks (COMING SOON - in public beta) - loads 1.13+ blocks in the world (requires server plugin)
 Select positions of all GUI modules
 Very high customizability - change the theme of the home screen, mod menu, and many widgets
 ```
