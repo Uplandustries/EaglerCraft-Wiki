@@ -2,7 +2,7 @@
 title: Advanced Server Configuration
 description: 
 published: true
-date: 2026-04-03T14:19:57.058Z
+date: 2026-04-03T14:35:36.697Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:47:16.027Z
@@ -22,8 +22,8 @@ To get wss:// to work (required for online clients), you need to set up SSL. The
 
 1. You need to be able to port forward freely; not just your main server. If you are hosting with a game host, you may not be able to. Otherwise, check the [Port Forwarding section on the main Hosting page](hosting#port-forwarding).
 2. SSL must have a domain/subdomain to name associate the certificates with. You can get free subdomains at:
-- [DuckDNS](https://duckdns.org)
-- [FreeDNS](https://freedns.afraid.org) (FreeDNS tends to be faster and has more options)
+- [DuckDNS](https://duckdns.org) (only `your-choice-subdomain.duckdns.org`)
+- [FreeDNS](https://freedns.afraid.org) (has more options - tends to be faster)
 Point it to your server's IP address. Either get it of your VPS provider's page, or go to [your IP](https://www.whatismyip.com) if you're at home, to get your IP.
 3. Then you need to set up [CertBot](https://certbot.eff.org/) to generate the certificate for the subdomain. This will allow you to connect with `wss://your-new-subdomain.whatever.com:25565` (Of course with a different subdomain/domain and possible port)
 
