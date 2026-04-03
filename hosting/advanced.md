@@ -2,7 +2,7 @@
 title: Advanced Server Configuration
 description: 
 published: true
-date: 2026-03-31T13:39:53.624Z
+date: 2026-04-03T14:19:57.058Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:47:16.027Z
@@ -13,7 +13,25 @@ dateCreated: 2026-01-07T15:47:16.027Z
 > If you have come here without first setting up a server, you are in the wrong place.
 {.is-warning}
 
-## How to support SSL (WSS) using NGrok (free)
+## How to support SSL (WSS)
+
+To get wss:// to work (required for online clients), you need to set up SSL. There are different methods depending whether you are hosting on a VPS, server host, or localhosting. 
+
+
+### With CertBot (free - VPS or local)
+
+1. You need to be able to port forward freely; not just your main server. If you are hosting with a game host, you may not be able to. Otherwise, check the [Port Forwarding section on the main Hosting page](hosting#port-forwarding).
+2. SSL must have a domain/subdomain to name associate the certificates with. You can get free subdomains at:
+- [DuckDNS](https://duckdns.org)
+- [FreeDNS](https://freedns.afraid.org) (FreeDNS tends to be faster and has more options)
+Point it to your server's IP address. Either get it of your VPS provider's page, or go to [your IP](https://www.whatismyip.com) if you're at home, to get your IP.
+3. Then you need to set up [CertBot](https://certbot.eff.org/) to generate the certificate for the subdomain. This will allow you to connect with `wss://your-new-subdomain.whatever.com:25565` (Of course with a different subdomain/domain and possible port)
+
+> If you don't want to put in `:25565` for the port, you can set up an [NGINX reverse proxy](https://nginx.org)
+> 
+{.is-info}
+
+### Using NGrok (free)
 
 1. [Sign up on NGrok](https://dashboard.ngrok.com/signup)
 2. [Set up an endpoint](https://dashboard.ngrok.com/get-started/setup/linux). Only do the Installation section, because we need to change some things in the Deploy command.
