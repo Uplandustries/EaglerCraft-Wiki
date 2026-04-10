@@ -2,7 +2,7 @@
 title: Advanced Server Configuration
 description: 
 published: true
-date: 2026-04-10T00:55:38.333Z
+date: 2026-04-10T01:04:01.700Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:47:16.027Z
@@ -59,7 +59,7 @@ Normally, the Minecraft servers must be the same version as the clients you plan
  - [Paper](https://papermc.io) is a highly recommended choice for almost any server, but there are other options.
  - Follow the 'Installing' and 'Configuring' parts of the [basic setup guide](/hosting#installing-the-server). (EULA and offline mode configs are the same)
 
-3. Download ViaVersion, ViaBackwards, and ViaRewind from the [ViaVersion website](https://viaversion.com) (plus ViaRewindLegacySupport if you wish to have *even* better compatability with 1.8). Put these in the `plugins` folder.
+3. Download ViaVersion, ViaBackwards, and ViaRewind from [Hangar](https://hangar.papermc.io/ViaVersion?sort=-updated) (plus ViaRewindLegacySupport if you wish to have *even* better compatability with 1.8). Put these in the `plugins` folder.
 
 > The latest version of ViaVersion is not directly compatible with  the current version of EaglerXServer (due to removal of reflection). As long as you don't put Via* plugins directly on the same server, you will be fine. **Via plugins go on the backend, while EaglerXServer is on the proxy.** This is another reason to setup EaglerXServer on a proxy instead of the backend server, even though it *may* work on just backend with some adjustments.
 {.is-warning}
@@ -87,8 +87,8 @@ Normally, EaglerXServer uses a SQLite database for caching skins. If you want to
 7. Set `skin_cache_db_uri` to `"jdbc:mysql://HOST:PORT/DB?user=USER&password=PASS&sslMode=DISABLED&autoReconnect=true"`, replacing "HOST", "PORT", "DB", "USER", and "PASS" with the respective info for the database.
 > You may also use the format `"jdbc:mysql://USER:PASS@HOST:PORT/DB?sslMode=DISABLED&autoReconnect=true"` for the URI if you wish.
 {.is-info}
-  - `HOST` could be a host name, IP address, or "localhost" to your MySQL server depending on your network.
-  - `PORT` for MySQL defaults to 3306, but may be different depending on what you set it to.
+  - `HOST` could be a host name, IP address, or `localhost` to your MySQL server depending on your network.
+  - `PORT` for MySQL defaults to `3306`, but may be different depending on what you set it to.
   - `DB` is the database name you set up in your MySQL server.
   - `USER` is a username that has permissions to read and write to the database. 
   - `PASS` is the password for that user. If the password contains any of the following characters, they must be converted with percent encoding: 
