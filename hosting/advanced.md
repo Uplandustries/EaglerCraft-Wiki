@@ -2,7 +2,7 @@
 title: Advanced Server Configuration
 description: 
 published: true
-date: 2026-04-03T21:06:15.139Z
+date: 2026-04-10T00:54:26.939Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:47:16.027Z
@@ -18,18 +18,21 @@ dateCreated: 2026-01-07T15:47:16.027Z
 To get wss:// to work (required for online clients), you need to set up SSL. There are different methods depending whether you are hosting on a VPS, server host, or localhosting. 
 
 
-### With CertBot (free - VPS or local)
+### With Let's Encrypt (free - VPS or local)
 
 1. You need to be able to port forward freely; not just your main server. If you are hosting with a game host, you may not be able to. If you are able to, forward ports 80 and 443. Check the [Port Forwarding section on the main Hosting page](/hosting#port-forwarding) if you haven't already.
 2. SSL must have a domain/subdomain to name associate the certificates with. You can get free subdomains at:
 - [DuckDNS](https://duckdns.org) (only `your-choice-subdomain.duckdns.org`)
 - [FreeDNS](https://freedns.afraid.org) (has more options - tends to be faster)
-Point it to your server's IP address. Either get it of your VPS provider's page, or go to [your IP](https://www.whatismyip.com) if you're at home, to get your IP.
-3. Then you need to set up [CertBot](https://certbot.eff.org/) to generate the certificate for the subdomain. This will allow you to connect with `wss://your-new-subdomain.whatever.com:25565` (Of course with a different subdomain/domain and possible port)
 
-> If you don't want to put in `:25565` for the port, you can set up an [NGINX reverse proxy](https://nginx.org)
-> 
-{.is-info}
+Point it to your server's IP address. Either get it of your VPS provider's page, or go to [WhatsMyIP](https://www.whatismyip.com) if you're at home, to get your IP.
+
+3. Then you need to set up a reverse proxy with Let's Encrypt (some options come with it included):
+ - (RECOMMENDED - supports Windows) [Caddy](https://caddyserver.com/docs/install) (Reverse proxy setup [here](https://caddyserver.com/docs/quick-starts/reverse-proxy) - if an external port isn't specified, it will default to 443 how we want) - completly automatic SSL by only providing the hostname
+ - (Easy if you have Docker) [NGINX Proxy Manager](https://nginxproxymanager.com/guide/#quick-setup) - simple Let's Encrypt configuration required
+ - (Advanced) [Plain NGINX](http://nginx.org/en/docs/install.html) with [CertBot](https://certbot.eff.org/) - manual configuration
+
+With what ever option you choose, map your server's hostname and port (ex: `localhost:25565` to the external domain/subdomain (enabling WebSocket support however necessary). These will generate the certificate for the subdomain. This will allow you to connect with `wss://your-new-subdomain.whatever.com`.
 
 ### Using NGrok (free)
 
