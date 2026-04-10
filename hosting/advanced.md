@@ -2,7 +2,7 @@
 title: Advanced Server Configuration
 description: 
 published: true
-date: 2026-04-10T00:54:26.939Z
+date: 2026-04-10T00:55:38.333Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:47:16.027Z
@@ -44,6 +44,10 @@ With what ever option you choose, map your server's hostname and port (ex: `loca
 
 > We plan to eventually add other methods for SSL here.
 {.is-info}
+
+### Using Cloudflare Tunnels (requires a registered domain in your account)
+
+WIP
 
 ## How to setup a newer server version (using ViaVersion)
 
