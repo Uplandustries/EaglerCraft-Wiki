@@ -2,7 +2,7 @@
 title: Clients
 description: 
 published: true
-date: 2026-04-03T20:15:00.045Z
+date: 2026-04-16T00:39:49.246Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:34:15.366Z
@@ -25,10 +25,9 @@ This page provides information on all publicly available modifications for Eagle
 ## **TuffClient**
 
 **Main Developers**
-- justatypicalpotato
+- UplandJacob
 - SyntaxSavy
 - Arlen
-- UplandJacob
 
 **Main Features**
 ```
