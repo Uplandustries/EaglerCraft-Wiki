@@ -2,7 +2,7 @@
 title: Advanced Server Configuration
 description: 
 published: true
-date: 2026-04-10T01:04:01.700Z
+date: 2026-05-04T02:29:17.316Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:47:16.027Z
@@ -64,7 +64,7 @@ Normally, the Minecraft servers must be the same version as the clients you plan
 > The latest version of ViaVersion is not directly compatible with  the current version of EaglerXServer (due to removal of reflection). As long as you don't put Via* plugins directly on the same server, you will be fine. **Via plugins go on the backend, while EaglerXServer is on the proxy.** This is another reason to setup EaglerXServer on a proxy instead of the backend server, even though it *may* work on just backend with some adjustments.
 {.is-warning}
 
-4. You may also install other plugins, such as AxSmithing (smithing table compatibility), or TuffX (for TuffClient), to the backend server for better compatibility.
+4. You may also install other plugins, such as AxSmithing (smithing table compatibility), or TuffX+ (for TuffClient), to the backend server for better compatibility.
 
 5. If you wish to support Eaglercraft 1.5.2, install EaglerXRewind from the [EaglerXServer releases page](https://github.com/lax1dude/EaglerXServer/releases) to the **proxy**.
 
