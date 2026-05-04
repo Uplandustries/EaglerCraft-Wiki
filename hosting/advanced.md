@@ -2,7 +2,7 @@
 title: Advanced Server Configuration
 description: 
 published: true
-date: 2026-05-04T02:29:17.316Z
+date: 2026-05-04T02:31:19.542Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:47:16.027Z
@@ -20,7 +20,7 @@ To get wss:// to work (required for online clients), you need to set up SSL. The
 
 ### With Let's Encrypt (free - VPS or local)
 
-1. You need to be able to port forward freely; not just your main server. If you are hosting with a game host, you may not be able to. If you are able to, forward ports 80 and 443. Check the [Port Forwarding section on the main Hosting page](/hosting#port-forwarding) if you haven't already.
+1. You need to be able to **port forward freely**; not just for your main server. If you are hosting with a game host, you may not be able to, as you need to have your *own* public IP. If you are able to, forward ports `80` and `443`. Check the [Port Forwarding section on the main Hosting page](/hosting#port-forwarding) if you haven't already.
 2. SSL must have a domain/subdomain to name associate the certificates with. You can get free subdomains at:
 - [DuckDNS](https://duckdns.org) (only `your-choice-subdomain.duckdns.org`)
 - [FreeDNS](https://freedns.afraid.org) (has more options - tends to be faster)
