@@ -2,7 +2,7 @@
 title: Hosts
 description: Hosting providers that support Eaglercraft servers
 published: true
-date: 2026-03-19T19:55:24.317Z
+date: 2026-05-04T02:28:19.406Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:44:59.660Z
@@ -18,19 +18,6 @@ A few recommended VPS (and dedicated host) services are listed below (but keep i
 > Both a VPS (Virtual Private Host) and a dedicated host (separate physical machine) allow you to run almost any servers/software within your allocated specs, unlike many common Minecraft server hosts which are usually one-click setup, restricting you to specific software.
 {.is-info}
 
-
-### Dollar Dollar Nodes (https://ddnodes.com)
-	- Pros
-      - Free
-      - Reliable
-      - Preconfigured for Eaglercraft
-      - Optional upgradability
-      - Customizable
-      - Good Support
-	- Cons
-      - Free servers are not as powerful as paid ones
-  	  - Limited space availability (beta)
-  	  - Only central US servers
 
 ### Hetzner (https://www.hetzner.com/cloud/)
 	- Pros
