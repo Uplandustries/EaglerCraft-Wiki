@@ -2,7 +2,7 @@
 title: Clients
 description: 
 published: true
-date: 2026-04-16T00:39:49.246Z
+date: 2026-06-17T17:41:44.577Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:34:15.366Z
@@ -27,7 +27,6 @@ This page provides information on all publicly available modifications for Eagle
 **Main Developers**
 - UplandJacob
 - SyntaxSavy
-- Arlen
 
 **Main Features**
 ```
