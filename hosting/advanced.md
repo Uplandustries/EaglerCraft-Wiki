@@ -2,7 +2,7 @@
 title: Advanced Server Configuration
 description: 
 published: true
-date: 2026-06-17T17:34:39.950Z
+date: 2026-06-17T17:40:53.013Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:47:16.027Z
@@ -22,8 +22,9 @@ To get wss:// to work (required for online clients), you need to set up SSL. The
 
 1. You need to be able to **port forward freely**; not just for your main server. If you are hosting with a game host, you may not be able to, as you need to have your *own* public IP. If you are able to, forward ports `80` and `443`. Check the [Port Forwarding section on the main Hosting page](/hosting#port-forwarding) if you haven't already.
 2. SSL must have a domain/subdomain to name associate the certificates with. You can get free subdomains at:
-- [DuckDNS](https://duckdns.org) (only `your-choice-subdomain.duckdns.org`)
-- [FreeDNS](https://freedns.afraid.org) (has more options - tends to be faster)
+- [DigitalPlat](https://domain.digitalplat.org/) (Limited TLDs[^1] and only one registration allowed)
+- [DuckDNS](https://duckdns.org) (Only `your-choice-subdomain.duckdns.org`)
+- [FreeDNS](https://freedns.afraid.org) (Has more options - tends to be faster)
 
 Point it to your server's IP address. Either get it of your VPS provider's page, or go to [WhatsMyIP](https://www.whatismyip.com) if you're at home, to get your IP.
 
@@ -99,3 +100,6 @@ Normally, EaglerXServer uses a SQLite database for caching skins. If you want to
         - `[`->`%5B`
         - `]`->`%5D`
         - `@`->`%40`
+
+
+[^1]: TLD: Top-level domain. ex: `.com` in `example.com`
