@@ -2,7 +2,7 @@
 title: How to Host a Server
 description: Step-by-step
 published: true
-date: 2026-07-15T21:55:35.808Z
+date: 2026-07-15T21:59:07.113Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:46:34.050Z
@@ -88,7 +88,7 @@ This is the expected folder structure after following these steps:
 
 ### Configuring BungeeCord and EaglerXServer
 
-After successfully installing BungeeCord and EaglerXServer you will need to configure it properly.
+After successfully installing BungeeCord and EaglerXServer, you will need to configure it properly.
 
 #### Setting the proxy to offline mode
 
@@ -120,11 +120,10 @@ Open `listeners.yml` and under `listener_01.server_motd` specify your own motd. 
 > **Be sure the bind address has the ___same port as the proxy server___. Unlike the old plugins, EaglerXServer does not like mismatched ports.**
 {.is-warning}
 
-
 ---
 
 ## Step 3: Testing the installation
-To see if the previous steps worked, start your BungeeCord installation and add the server's IP along with the port specified in `listeners.yml` (usually 25577) to your EaglercraftX multiplayer server list (`ws://ipaddress:port`). Please note this will only work on non-SSL encrypted sites because we have not set up any SSL encryption so you will have to use a offline downloaded HTML file for EaglercraftX.
+To see if the previous steps worked, start your BungeeCord installation and add the server's IP along with the port specified in `listeners.yml` (usually 25577) to your EaglercraftX multiplayer server list (`ws://ipaddress:port`). Please note this will only work on non-SSL encrypted sites because we have not set up any SSL encryption, so you will have to use a offline downloaded HTML file for EaglercraftX.
 
 > Joining the server at this point will kick you back out immediately, this is normal and expected because you have not yet set up a server. You will set one up in the next steps.
 {.is-info}
