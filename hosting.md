@@ -2,7 +2,7 @@
 title: How to Host a Server
 description: Step-by-step
 published: true
-date: 2026-07-15T21:53:54.424Z
+date: 2026-07-15T21:55:35.808Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:46:34.050Z
@@ -52,12 +52,13 @@ After installing Java we can get started with downloading the proxy software of 
 For simplicity this guide will assume you are using BungeeCord but steps for Velocity are almost the same.
 
 ### Installing and preparing the proxy
+
 1. Download the latest [BungeeCord jar file](https://ci.md-5.net/job/BungeeCord/) or [Velocity jar file](https://papermc.io/downloads/velocity) and upload it to a directory on your server.
 2. Visit the [EaglercraftXServer releases page](https://github.com/lax1dude/eaglerxserver/releases) and download the EaglerXServer file.
 3. Start your BungeeCord server to generate the needed files and directories. This can be done by running `java -jar BungeeCord.jar` inside of the directory where you placed the file.
 4. Shutdown your BungeeCord server by typing `end` into the server's console.
 5. Inside of your BungeeCord installation's directory there should now be a folder called `plugins`.
-6. Drop the downloaded `EaglerXServer.jar` file into this directory and start up your BungeeCord instance again. We don't need it to stay online so just turn it off by typing `end` in the console once again.
+6. Drop the downloaded `EaglerXServer.jar` file into this directory and start up your BungeeCord instance again. We don't need it to stay online so just turn it off by typing `end` (or `stop` for Velocity) in the console once again.
 7. This should now have generated a new `EaglerXServer` folder in your plugins directory. Inside you will find all files for configuring EaglerXServer.
 > Installing EaglercraftXServer on Velocity will generate an `eaglerxserver` folder and all `.yml` files will be `.toml` instead with slightly different formatting (the options are almost all exactly the same).
 {.is-info}
