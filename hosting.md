@@ -2,7 +2,7 @@
 title: How to Host a Server
 description: Step-by-step
 published: true
-date: 2026-02-23T11:43:23.201Z
+date: 2026-07-15T21:35:23.699Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:46:34.050Z
@@ -158,9 +158,11 @@ You will need to change this regardless of if your proxy config is set to `true`
 
 Feel free to also change values such as `view-distance` or `simulation-distance` here.
 
+**If you proxy server is using port 25565, you also need to change the port in `server.properties` to something else.**
+
 > It is important to close the port that your backend server is running on (default: 25565) on your firewall and/or router because having it open can lead to a backdoor, bypassing the proxy.
 > 
-> *To secure it farther, [BungeeGuard](https://bungeeguard.com/) can be installed to ensure the backend server only excepts connections from the proxy.*
+> *To secure it farther, [BungeeGuard](https://github.com/lucko/BungeeGuard/blob/master/INSTALLATION.md) can be installed to ensure the backend server only excepts connections from the proxy.*
 {.is-warning}
 
 ## Step 5: Joining the server (finally!)
