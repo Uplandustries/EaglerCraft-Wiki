@@ -2,7 +2,7 @@
 title: How to Host a Server
 description: Step-by-step
 published: true
-date: 2026-07-15T21:50:53.904Z
+date: 2026-07-15T21:51:08.737Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:46:34.050Z
@@ -165,7 +165,7 @@ Feel free to also change values such as `view-distance` or `simulation-distance`
 > *To secure it farther, [BungeeGuard](https://github.com/lucko/BungeeGuard/blob/master/INSTALLATION.md) can be installed to ensure the backend server only excepts connections from the proxy.*
 {.is-warning}
 
-### Adding the sever to the proxy
+### Adding the server to the proxy
 
 Navigate back to your proxy's directory.
 
