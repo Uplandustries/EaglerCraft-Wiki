@@ -2,7 +2,7 @@
 title: How to Host a Server
 description: Step-by-step
 published: true
-date: 2026-07-15T21:49:11.849Z
+date: 2026-07-15T21:50:53.904Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:46:34.050Z
@@ -191,6 +191,10 @@ try = [
   "somename"
 ]
 ```
+
+> If your backend server is on a different computer (or in a Docker network), change `127.0.0.1` (which is `localhost`) to the local IP address of that computer.
+{.is-info}
+
 
 ## Step 5: Joining the server (finally!)
 ### Port Forwarding
