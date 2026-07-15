@@ -2,7 +2,7 @@
 title: How to Host a Server
 description: Step-by-step
 published: true
-date: 2026-07-15T21:41:26.699Z
+date: 2026-07-15T21:44:05.320Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:46:34.050Z
@@ -169,7 +169,15 @@ Feel free to also change values such as `view-distance` or `simulation-distance`
 
 Navigate back to your proxy's directory.
 
-For BungeeCord, open `config.yml`
+For BungeeCord, open `config.yml`, go to the `servers` section, and add you server something like this:
+
+```yaml
+servers:
+  someserver:
+    address: 127.0.0.1:25565
+    restricted: false
+    motd: 'Some Server'
+```
 
 For Velocity, open `velocity.toml`, go to the `[servers]`, and add you server something like this (the comments also help):
 
