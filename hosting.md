@@ -2,7 +2,7 @@
 title: How to Host a Server
 description: Step-by-step
 published: true
-date: 2026-07-15T21:59:07.113Z
+date: 2026-09-10T02:29:07.518Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:46:34.050Z
@@ -218,8 +218,8 @@ Minecraft Java Edition @ `127.0.0.1:25577`
 EaglercraftX @ `ws://127.0.0.1:25577` (**NEEDS TO BE FROM A non-SSL source like an offline download**)
 (replace 127.0.0.1 with the IP to your server and 8081/25577 with the corresponding ports if you changed them)
 
-> A guide for setting up a domain for your server, as well as wss, will eventually be written at some stage.
-{.is-warning}
+> To support `wss://`, you must [set up SSL](https://eag-docs.uplandustries.com/en/hosting/advanced#how-to-support-ssl-wss).
+{.is-info}
 
 ---
 
