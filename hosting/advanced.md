@@ -2,7 +2,7 @@
 title: Advanced Server Configuration
 description: 
 published: true
-date: 2026-09-10T02:27:40.916Z
+date: 2026-09-10T02:29:41.970Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:47:16.027Z
@@ -15,7 +15,7 @@ dateCreated: 2026-01-07T15:47:16.027Z
 
 ## How to support SSL (WSS)
 
-To get wss:// to work (required for online clients), you need to set up SSL. There are different methods depending whether you are hosting on a VPS, server host, or localhosting. 
+To get `wss://` to work (required for online clients), you need to set up SSL. There are different methods depending whether you are hosting on a VPS, server host, or localhosting. 
 
 
 ### With Let's Encrypt (free - VPS or local)
