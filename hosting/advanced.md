@@ -2,7 +2,7 @@
 title: Advanced Server Configuration
 description: 
 published: true
-date: 2026-09-10T02:29:41.970Z
+date: 2026-10-02T06:38:10.274Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:47:16.027Z
@@ -29,7 +29,7 @@ To get `wss://` to work (required for online clients), you need to set up SSL. T
 Point it to your server's IP address. Either get it of your VPS provider's page, or go to [WhatsMyIP](https://www.whatismyip.com) if you're at home, to get your IP.
 
 3. Then you need to set up a reverse proxy with Let's Encrypt (some options come with it included):
- - (RECOMMENDED - supports Windows) [Caddy](https://caddyserver.com/docs/install) (Reverse proxy setup [here](https://caddyserver.com/docs/quick-starts/reverse-proxy) - if an external port isn't specified, it will default to 443 how we want) - completely automatic SSL by only providing the hostname
+ - (RECOMMENDED - supports Windows with the Chocolatey package manager) [Caddy](https://caddyserver.com/docs/install) (Reverse proxy setup [here](https://caddyserver.com/docs/quick-starts/reverse-proxy) - if an external port isn't specified, it will default to 443 how we want) - completely automatic SSL by only providing the hostname
  - (Easy if you have Docker) [NGINX Proxy Manager](https://nginxproxymanager.com/guide/#quick-setup) - simple Let's Encrypt configuration required
  - (Advanced) [Plain NGINX](http://nginx.org/en/docs/install.html) with [CertBot](https://certbot.eff.org/) - manual configuration
 
