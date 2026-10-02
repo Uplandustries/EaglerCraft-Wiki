@@ -2,7 +2,7 @@
 title: How to Host a Server
 description: Step-by-step
 published: true
-date: 2026-09-10T02:29:07.518Z
+date: 2026-10-02T03:26:34.638Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:46:34.050Z
@@ -60,7 +60,7 @@ For simplicity this guide will assume you are using BungeeCord but steps for Vel
 5. Inside of your BungeeCord installation's directory there should now be a folder called `plugins`.
 6. Drop the downloaded `EaglerXServer.jar` file into this directory and start up your BungeeCord instance again. We don't need it to stay online so just turn it off by typing `end` (or `stop` for Velocity) in the console once again.
 7. This should now have generated a new `EaglerXServer` folder in your plugins directory. Inside you will find all files for configuring EaglerXServer.
-> Installing EaglercraftXServer on Velocity will generate an `eaglerxserver` folder and all `.yml` files will be `.toml` instead with slightly different formatting (the options are almost all exactly the same).
+> Installing EaglercraftXServer on Velocity will generate an `eaglerxserver` folder and all `.yml` files will be `.toml` instead with ___slightly different formatting using = signs___ (the options are almost all exactly the same).
 {.is-info}
 
 This is the expected folder structure after following these steps:
@@ -96,7 +96,7 @@ This step is required to allow normal EaglercraftX players to join without the n
 > This will allow ___***anyone***___ to join your server with any name ___including yours___ which could lead to some catastrophic events, so make sure to set up an authentication plugin. This is not featured in this guide but updated and popular choices are [AuthMeReloaded](https://github.com/AuthMe/AuthMeReloaded/) and [nLogin](https://docs.nickuc.com/).
 {.is-warning}
 
-To switch your proxy into offline mode, you will need to edit the `config.yml` file located in the root of your proxy installation.
+To switch your proxy into offline mode, you will need to edit the `config.yml` file (or `velocity.toml`) located in the root of your proxy installation.
 In the file look for a line that says:
 ```yaml
 online_mode: true
