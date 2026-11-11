@@ -1,8 +1,8 @@
 ---
 title: How to Host a Server
-description: Step-by-step
+description: Step-by-step guide on setting up a backend server with either a BungeeCord or Velocity proxy.
 published: true
-date: 2026-10-02T03:26:34.638Z
+date: 2026-11-11T02:48:33.850Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:46:34.050Z
