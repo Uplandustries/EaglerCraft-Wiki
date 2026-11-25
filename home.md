@@ -2,7 +2,7 @@
 title: Eaglercraft Intro
 description: 
 published: true
-date: 2026-01-21T23:55:59.849Z
+date: 2026-11-25T22:41:40.422Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:25:45.921Z
