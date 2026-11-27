@@ -2,7 +2,7 @@
 title: Playing
 description: 
 published: true
-date: 2026-11-25T22:41:46.442Z
+date: 2026-11-27T18:05:28.790Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-07T15:34:53.535Z
@@ -35,7 +35,7 @@ dateCreated: 2026-01-07T15:34:53.535Z
 ### Playing Multiplayer
 - The most common way to play Eaglercraft is multiplayer.
 - To play Eaglercraft with others, you can join a server.
-- First, find a server address/IP. We suggest the [EaglerServerList](/EaglerServerList/Introduction).
+- First, find a server address/IP. We suggest the [EaglerServerList](https://eaglercraft.com/servers).
 - Once you get an IP, press the "**Add Server**" button at the bottom right of your client.
 <!--![screenshot_2025-02-23_094147.png](/screenshot_2025-02-23_094147.png)-->
 - Here, you can make a name and input the server address!
